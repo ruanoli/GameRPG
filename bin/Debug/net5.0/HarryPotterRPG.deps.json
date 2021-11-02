@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "HarryPotterRPG/1.0.0": {
+        "runtime": {
+          "HarryPotterRPG.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HarryPotterRPG/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

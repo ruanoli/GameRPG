@@ -21,8 +21,8 @@ namespace NarutoRPG.src.Entities
             JutsuProhibitedLevel = jutsuProhibitedLevel;
         }
 
-        public string JutsuProhibited { get; set; }
-        public int JutsuProhibitedLevel { get; set; }
+        private string JutsuProhibited { get; set; }
+        private int JutsuProhibitedLevel { get; set; }
         public override string Attack()
         {
             return ($"{this.Name} Atacou com o jutsu {this.Jutsu}!!");

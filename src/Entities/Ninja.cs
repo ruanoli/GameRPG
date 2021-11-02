@@ -17,10 +17,10 @@ namespace NarutoRPG.src.Entities
         {
 
         }
-        public string Name { get; set; }
-        public int Level { get; set; }
-        public string Village { get; set; }
-        public string Jutsu { get; set; }
+        protected string Name { get; set; }
+        protected int Level { get; set; }
+        protected string Village { get; set; }
+        protected string Jutsu { get; set; }
 
         public override string ToString()
         {
